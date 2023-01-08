@@ -1,0 +1,22 @@
+.wrapper {
+  background-color: var(--white);
+  color: var(--black);
+  width: 100%;
+  height: auto;
+  border-radius: 12px 12px 0 0;
+  margin-bottom: -2px;
+}
+
+.name {
+  font-size: 32px;
+  text-align: center;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+.description {
+  margin-left: 10px;
+  padding-bottom: 10px;
+  font-size: 24px;
+  font-weight: 300;
+}

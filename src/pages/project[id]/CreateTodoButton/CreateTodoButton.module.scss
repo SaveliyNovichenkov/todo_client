@@ -1,0 +1,22 @@
+
+
+.button {
+  padding-top: 0;
+  color: var(--gray);
+  font-size: 18px;
+  width: 100%;
+  height: auto;
+  background-color: var(--primary);
+  transition: all 0.3s linear;
+  border-radius: 0 0 12px 12px;
+  &:hover {
+    background-color: var(--dark-blue);
+    color: var(--white);
+  }
+}
+
+.form {
+  position: absolute;
+  top: 60px;
+  right: 52%;
+}

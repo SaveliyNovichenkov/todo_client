@@ -1,0 +1,58 @@
+.wrapper {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  padding: 0 20px;
+}
+.button__icon {
+  box-sizing: border-box;
+  cursor: pointer;
+  align-items: center;
+  position: relative;
+  overflow: hidden;
+  background-color: var(--primary);
+  outline: none;
+  padding: 0;
+  border: none;
+  transition: all 0.2s linear;
+  &:hover {
+    > svg * {
+      fill: var(--blue);
+    }
+  }
+}
+
+.form {
+  position: absolute;
+  border-radius: 12px;
+  top: 50px;
+  right: -15px;
+  width: 300px;
+  background-color: var(--primary);
+  height: 150px;
+}
+
+.form__input {
+  font-size: 16px;
+  border-radius: 6px;
+  margin: 5px 5px 5px 5px;
+  height: 30px;
+  width: 280px;
+}
+
+.form__button {
+  font-size: 16px;
+  background-color: var(--blue);
+  border-radius: 12px;
+  color: var(--white);
+  width: 150px;
+  height: 40px;
+  position: absolute;
+  bottom: 15px;
+  left: 27%;
+  transition: all 0.2s linear;
+  &:hover {
+    background-color: var(--dark-blue);
+    border: 3px solid var(--blue);
+  }
+}
